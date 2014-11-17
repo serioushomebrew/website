@@ -1,3 +1,6 @@
-# SeriousHomeBrew
-## Contributors
-Corné Dorrestijn @corne
+SeriousHomeBrew
+===============
+
+Contributors
+------------
+[Corné Dorrestijn](https://github.com/cornedor/)

@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+<style>
+body { 
+    background: white center center;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden
+}
+.center {
+    text-align: center;
+    font-family: 'Bangers';
+    text-shadow: 0 0 70px rgba(0, 0, 0, 1),
+                 0 0 20px rgba(0, 0, 0, 0.8),
+                 0 0 10px rgba(0, 0, 0, 1);
+    font-size: 40px;
+    color: white;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 99px;
+    color: #E33;
+}
+
+.darker {
+    color: #DDD;
+}
+
+a { 
+    color: white;
+}
+
+a:hover {
+    color: #E33;
+}
+
+.perm {
+    font-size: 20px;
+}
+
+</style>
+</head><body>
+<div class="center">
+<h1></h1>
+<span class="darker">"<!--#echo var="REQUEST_URI" -->"</span> DOESN'T EXSIST!!!.<br/><br/><br/>
+<i>&nbsp;- <a href="/"><!--#echo var="HTTP_HOST" --></a></i>
+<br/><br/><a href="" class="perm"></a>
+</div>
+<script>
+var words = ["Whaaaaaaaaaaaa!!!!",
+             "Oh noes!!",
+             "Nooooooooo!!!",
+             "404!!!",
+             "Dafuq?!!",
+             "Wut..."];
+var bgs = ["http://static.fjcdn.com/gifs/404+otter+not+found_16a8ac_4704113.gif",
+           "http://i.imgur.com/NAn3ojT.gif",
+           "http://i.imgur.com/cyeGq71.gif",
+           "http://i.imgur.com/lvf48.gif",
+           "http://i.imgur.com/6WtZluN.gif",
+           "http://i.imgur.com/BQbvewy.gif",
+           "http://i.imgur.com/mVrb2CF.gif",
+           "http://i.imgur.com/wLCSFLD.gif",
+           "http://i.imgur.com/eOztEy9.gif",
+           "https://38.media.tumblr.com/1fc40a1faed996102012c46dd999ac74/tumblr_n32wp5LbjG1tw1vhco1_500.gif",
+           "http://media.tumblr.com/a63a9364cfe8cd9e617f9d5d670e0df7/tumblr_inline_nczw6yAV7i1raprkq.gif",
+           "http://i.imgur.com/VpHMC.gif",
+           "http://www.reactiongifs.com/r/martin.gif",
+           "http://www.reactiongifs.com/r/bdur.gif",
+           "http://www.reactiongifs.com/r/wnd.gif",
+           "http://www.reactiongifs.com/r/ll.gif",
+           "http://i.imgur.com/LDZtG.gif",
+           "http://www.reactiongifs.com/r/34fg.gif",
+           "http://www.reactiongifs.com/r/wsod.gif",
+           "http://i.imgur.com/FI6j9YJ.jpg",
+           "http://i.imgur.com/NnAYt5D.gif",
+           "http://i.imgur.com/KHPIjHf.gif",
+           "http://i.imgur.com/l599C.gif",
+           "http://i.imgur.com/auq9lNv.gif",
+           "http://i.imgur.com/j3FBf8c.gif",
+           "http://media.giphy.com/media/AhjXalGPAfJg4/giphy.gif",
+           "http://static.fjcdn.com/gifs/It+crowd+gif+i+love+the+it+crowd_5b253d_3120562.gif",
+           "http://www.reactiongifs.com/r/0o0.gif",
+           "http://media.giphy.com/media/a8RO6kWdcjVp6/giphy.gif",
+           "http://www.reactiongifs.com/wp-content/uploads/2013/09/hmm.gif",
+           "http://www.reactiongifs.com/wp-content/uploads/2013/09/sadtrick.gif",
+           "http://replygif.net/i/561.gif",
+           "http://i.imgur.com/NU00M.gif"];
+var pbg = parseInt(document.location.hash.replace("#", ""));
+var i = Math.floor(Math.random()*bgs.length);
+var bg;
+if(pbg && pbg < bgs.length) {
+    i = pbg;
+}
+var l = document.querySelector(".perm");
+l.setAttribute("href", "#" + i);
+l.innerHTML = "#" + i;
+bg = bgs[i];
+
+document.body.style.backgroundImage = "url("+bg+")";
+document.querySelector('h1').innerHTML = words[Math.floor(Math.random() * words.length)];
+</script>
+</body></html>
+           
