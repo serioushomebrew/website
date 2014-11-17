@@ -93,7 +93,12 @@ function rand(j) {
              "http://i.imgur.com/NU00M.gif",
              "http://remycarreiro.com/wp-content/uploads/2012/06/fcgif.gif",
              "https://33.media.tumblr.com/de196a18ebe4694f62de3f80a4c7c549/tumblr_myzgzhMPkk1st4uq8o5_500.gif",
-             "http://media.giphy.com/media/QaGpdyYkfzupy/giphy.gif"];
+             "http://media.giphy.com/media/QaGpdyYkfzupy/giphy.gif",
+             "http://www.gifbin.com/bin/112014/1416077990_volleyball_early_celebration_fail.gif",
+             "http://www.gifbin.com/bin/062011/1308241960_bird_pushes_turtle_off_the_table.gif",
+             "http://www.gifbin.com/bin/082011/1314959189_george_clooney__soon.gif",
+             "http://www.gifbin.com/bin/122009/1260795401_pig-rider.gif",
+             "http://www.gifbin.com/bin/042009/1241026091_youve_been_rickrolled.gif"];
   var pbg = parseInt(document.location.hash.replace("#", ""));
   var i = Math.floor(Math.random()*bgs.length);
   var bg;
