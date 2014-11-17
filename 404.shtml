@@ -89,7 +89,8 @@ var bgs = ["http://static.fjcdn.com/gifs/404+otter+not+found_16a8ac_4704113.gif"
            "http://www.reactiongifs.com/wp-content/uploads/2013/09/sadtrick.gif",
            "http://replygif.net/i/561.gif",
            "http://i.imgur.com/NU00M.gif",
-           "http://remycarreiro.com/wp-content/uploads/2012/06/fcgif.gif"];
+           "http://remycarreiro.com/wp-content/uploads/2012/06/fcgif.gif",
+           "https://33.media.tumblr.com/de196a18ebe4694f62de3f80a4c7c549/tumblr_myzgzhMPkk1st4uq8o5_500.gif"];
 var pbg = parseInt(document.location.hash.replace("#", ""));
 var i = Math.floor(Math.random()*bgs.length);
 var bg;
