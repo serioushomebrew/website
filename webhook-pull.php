@@ -1,6 +1,6 @@
 <?php 
     require_once '../github-webhook-pull.php';
-    if(!isset($_GET['token']) || strcmp($_GET['token'], $token))
+    if(!isset($_GET['token']) || strcmp($_GET['token'], $token) !== 0)
     {
         echo 'DENIED';
         exit;
