@@ -102,7 +102,8 @@ function rand(j) {
              "http://i.imgur.com/1LhhHiS.gif",
              "http://media3.giphy.com/media/YyKPbc5OOTSQE/giphy.gif",
              "http://www.gifbin.com/bin/112014/1416414602_man_falls_into_hole_while_pushing_car_out_of_service_garage.gif",
-             "http://www.flabber.nl/sites/flabber.nl/galleries/eyegasmsfijn27.gif"];
+             "http://www.flabber.nl/sites/flabber.nl/galleries/eyegasmsfijn27.gif",
+             "https://33.media.tumblr.com/tumblr_md8vuoA4zq1qf2897o1_400.gif"];
   var pbg = parseInt(document.location.hash.replace("#", ""));
   var i = Math.floor(Math.random()*bgs.length);
   var bg;
