@@ -99,7 +99,10 @@ function rand(j) {
              "http://www.gifbin.com/bin/082011/1314959189_george_clooney__soon.gif",
              "http://www.gifbin.com/bin/122009/1260795401_pig-rider.gif",
              "http://www.gifbin.com/bin/042009/1241026091_youve_been_rickrolled.gif",
-             "http://i.imgur.com/1LhhHiS.gif"];
+             "http://i.imgur.com/1LhhHiS.gif",
+             "http://media3.giphy.com/media/YyKPbc5OOTSQE/giphy.gif",
+             "http://www.gifbin.com/bin/112014/1416414602_man_falls_into_hole_while_pushing_car_out_of_service_garage.gif",
+             "http://www.flabber.nl/sites/flabber.nl/galleries/eyegasmsfijn27.gif"];
   var pbg = parseInt(document.location.hash.replace("#", ""));
   var i = Math.floor(Math.random()*bgs.length);
   var bg;
