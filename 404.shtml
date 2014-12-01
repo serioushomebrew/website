@@ -111,7 +111,8 @@ function rand(j) {
              "http://static.fjcdn.com/gifs/Wrong+place+wrong+time+2+bird_e196d1_5162116.gif",
              "http://media.giphy.com/media/rjr9etfxrdP3i/giphy.gif",
              "http://media.giphy.com/media/JFDoXMoG8lpVS/giphy.gif",
-             "http://media.giphy.com/media/bQCWmEgKHasZG/giphy.gif"];
+             "http://media.giphy.com/media/bQCWmEgKHasZG/giphy.gif",
+             "http://hugelolcdn.com/i/317357.gif"];
   var pbg = parseInt(document.location.hash.replace("#", ""));
   var i = Math.floor(Math.random()*bgs.length);
   var bg;
