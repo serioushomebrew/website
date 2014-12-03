@@ -103,7 +103,17 @@ function rand(j) {
              "http://media3.giphy.com/media/YyKPbc5OOTSQE/giphy.gif",
              "http://www.gifbin.com/bin/112014/1416414602_man_falls_into_hole_while_pushing_car_out_of_service_garage.gif",
              "http://www.flabber.nl/sites/flabber.nl/galleries/eyegasmsfijn27.gif",
-             "https://33.media.tumblr.com/tumblr_md8vuoA4zq1qf2897o1_400.gif"];
+             "https://33.media.tumblr.com/tumblr_md8vuoA4zq1qf2897o1_400.gif",
+             "http://www.thisiscolossal.com/wp-content/uploads/2014/03/120430.gif",
+             "http://static.fjcdn.com/gifs/Divide_2b2f79_872390.gif",
+             "http://media.giphy.com/media/1DWgtrpizbSZa/giphy.gif",
+             "http://static.fjcdn.com/gifs/Sitting+in+wrong+place+wrong+time_d5f5ee_5230820.gif",
+             "http://static.fjcdn.com/gifs/Wrong+place+wrong+time+2+bird_e196d1_5162116.gif",
+             "http://media.giphy.com/media/rjr9etfxrdP3i/giphy.gif",
+             "http://media.giphy.com/media/JFDoXMoG8lpVS/giphy.gif",
+             "http://media.giphy.com/media/bQCWmEgKHasZG/giphy.gif",
+             "http://hugelolcdn.com/i/317357.gif",
+             "http://media.giphy.com/media/MGaacoiAlAti0/giphy.gif"];
   var pbg = parseInt(document.location.hash.replace("#", ""));
   var i = Math.floor(Math.random()*bgs.length);
   var bg;
