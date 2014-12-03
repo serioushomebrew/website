@@ -1,4 +1,4 @@
-<img alt="SHB" src="http://a.pomf.se/pgxwny.svg" height="26px" width="60px">
+<img alt="SHB" src="http://a.pomf.se/wgotlw.svg" height="26px" width="60px">
 
 SeriousHomeBrew
 ===============
