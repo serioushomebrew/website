@@ -114,7 +114,15 @@ function rand(j) {
              "http://media.giphy.com/media/bQCWmEgKHasZG/giphy.gif",
              "http://hugelolcdn.com/i/317357.gif",
              "http://media.giphy.com/media/MGaacoiAlAti0/giphy.gif",
-             "http://25.media.tumblr.com/tumblr_lqj3a6WgYA1qzd94go1_400.gif"];
+             "http://25.media.tumblr.com/tumblr_lqj3a6WgYA1qzd94go1_400.gif",
+             "http://www.pbh2.com/wordpress/wp-content/uploads/2013/06/funny-gif-worst-dog-trick-ever.gif",
+             "http://www.pbh2.com/wordpress/wp-content/uploads/2013/06/funny-gif-heads-up.gif",
+             "http://www.pbh2.com/wordpress/wp-content/uploads/2013/06/funny-gif-mascot-fail.gif",
+             "http://www.pbh2.com/wordpress/wp-content/uploads/2013/06/funny-gif-file-dominos.gif",
+             "http://i.minus.com/ibw4PEorr4DqQw.gif",
+             "http://www.pbh2.com/wordpress/wp-content/uploads/2013/06/funny-gif-gumby-rejection.gif",
+             "http://www.pbh2.com/wordpress/wp-content/uploads/2013/06/funny-gif-cat-jumps-bean-bag-chair.gif",
+             "http://www.pbh2.com/wordpress/wp-content/uploads/2013/06/funny-gif-wrestling.gif"];
   var pbg = parseInt(document.location.hash.replace("#", ""));
   var i = Math.floor(Math.random()*bgs.length);
   var bg;
