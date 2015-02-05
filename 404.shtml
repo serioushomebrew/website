@@ -124,7 +124,8 @@ function rand(j) {
              "http://www.pbh2.com/wordpress/wp-content/uploads/2013/06/funny-gif-cat-jumps-bean-bag-chair.gif",
              "http://www.pbh2.com/wordpress/wp-content/uploads/2013/06/funny-gif-wrestling.gif",
              "http://media.tumblr.com/1c4d73f1ebacaa9602bd76c10a84212a/tumblr_inline_nesrklULIu1raprkq.gif",
-             "http://media.tumblr.com/ebe3e800abc6988d1e077aa472ee899f/tumblr_inline_nesqxiSaXK1raprkq.gif"];
+             "http://media.tumblr.com/ebe3e800abc6988d1e077aa472ee899f/tumblr_inline_nesqxiSaXK1raprkq.gif",
+             "http://media1.giphy.com/media/TnN8ei3cMolpu/giphy.gif"];
   var pbg = parseInt(document.location.hash.replace("#", ""));
   var i = Math.floor(Math.random()*bgs.length);
   var bg;
