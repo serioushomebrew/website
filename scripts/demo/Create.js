@@ -25,6 +25,10 @@ var Create = {
      */
     cube : function(x,y,z, angleX, angleY, angleZ){
         var geometry = new THREE.BoxGeometry( 10, 10, 10 );
+
+        geometry.verticesNeedUpdate = true;
+        geometry.dynamic = true;
+
         var material = new THREE.MeshNormalMaterial();
         var mesh = new THREE.Mesh( geometry, material );
 
@@ -53,11 +57,12 @@ var Create = {
         if(angleZ !== undefined)
             mesh.rotateZ(angleZ);
 
-        mesh.matrixAutoUpdate = false;
+        mesh.matrixAutoUpdate = true;
         mesh.updateMatrix();
 
+        Create.history.push(mesh);
         Scene.instance.add(mesh);
-        this.history.push(mesh);
+
         return mesh;
     },
 

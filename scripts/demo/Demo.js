@@ -47,7 +47,7 @@ var Demo = {
      * @param max
      * @returns {number}
      */
-    randomIntFromInterval : function (min,max){
+    random : function (min, max){
         return Math.floor(Math.random()*(max-min+1)+min);
     },
 
@@ -65,15 +65,22 @@ var Demo = {
      * Called every frame, animates the Demo
      */
     animate : function() {
-        var r = Date.now() * 0.0005;
 
+        var r = Date.now() * 0.0005;
         Camera.instance.position.x = 70 * Math.sin( r );
         Camera.instance.position.y = 70 * Math.cos( -r );
         Camera.instance.rotateX(Math.sin( r )*0.005);
         Camera.instance.rotateY(Math.sin( -r )*0.005);
 
+        Scene.cubes.forEach(function(cube){
+            cube.rotation.x += cube.rotationSpeed;
+            cube.rotation.y += cube.rotationSpeed;
+            cube.rotation.z += cube.rotationSpeed;
+        });
+
         requestAnimationFrame( Demo.animate );
         Render.run();
+
     }
 };
 

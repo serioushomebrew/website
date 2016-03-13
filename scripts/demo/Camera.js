@@ -50,8 +50,6 @@ var Camera = {
         Camera.instance.far = this.far;
 
         Camera.instance.updateProjectionMatrix();
-
-
         Camera.instance.lookAt(new THREE.Vector3(0,0,0));
 
     }
