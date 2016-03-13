@@ -12,7 +12,7 @@ var Scene = {
     /**
      * Use the mouse controls in threejs or not
      */
-    enableControls : true,
+    enableControls : false,
 
     /**
      * Width of the scene
