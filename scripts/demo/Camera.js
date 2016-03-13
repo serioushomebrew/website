@@ -24,6 +24,14 @@ var Camera = {
     },
 
     /**
+     * Window can change so we need to be able to update the aspect
+     */
+    updateAspect : function(aspect){
+        this.aspect = aspect;
+        Camera.instance.aspect = aspect;
+    },
+
+    /**
      * Create the instance of the Camera
      */
     instance : new THREE.PerspectiveCamera(),
