@@ -67,8 +67,8 @@ var Demo = {
         var r = Date.now() * 0.0005;
         Camera.instance.position.x = 70 * Math.sin( r );
         Camera.instance.position.y = 70 * Math.cos( -r );
-        Camera.instance.rotateX(Math.sin( r )*0.02);
-        Camera.instance.rotateY(Math.sin( -r )*0.02);
+        Camera.instance.rotateX(Math.sin( r )*0.005);
+        Camera.instance.rotateY(Math.sin( -r )*0.005);
 
         requestAnimationFrame( Demo.animate );
         Render.run();
