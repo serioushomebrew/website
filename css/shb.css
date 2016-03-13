@@ -1,0 +1,16 @@
+body {
+    background-color:#222222;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+pre {
+    z-index: 999;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    color: #0F0;
+}
+a {
+    color: #0F0;
+}
