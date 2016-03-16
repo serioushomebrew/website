@@ -1,10 +1,10 @@
-<img alt="SHB" src="http://serioushomebrew.eu/logo.png" height="200px" width="200px">
+<img alt="SHB" src="http://serioushomebrew.nl/logo.png" height="200px" width="200px">
 
 SeriousHomeBrew
 ===============
 
 ## About
-This repo contains the live website at [SeriousHomebrew.eu](http://serioushomebrew.eu).
+This repo contains the live website at [SeriousHomebrew.nl](http://serioushomebrew.nl).
 Pushes and merges to the master branch are updated live through the webhook.
 
 ## Background
