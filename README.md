@@ -18,6 +18,9 @@ It gets a random gif and a random string from a list of gifs and string and puts
 Contributors
 ------------
 [Corné Dorrestijn](https://github.com/cornedor/)
+
 [Kevin van der Burgt](https://github.com/kevinvdburgt/)
+
 [Koen Hendriks](https://github.com/koenhendriks/)
+
 [Peter Schriever](https://github.com/peterschriever/)
