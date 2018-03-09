@@ -6,6 +6,5 @@
         exit;
     }
 
-    exec('git pull 2>&1', $result);
+    exec('/usr/local/git/bin/git pull 2>&1', $result);
     print_r($result);
-
